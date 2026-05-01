@@ -7,7 +7,8 @@ print("Content Type: ", response.headers["Content-Type"])
 
 data = response.json()
 
-print("Username: ", data["login"])
-print("Public Repos: ", data["public_repos"])
-print("Account Created: ", data["created_at"])
-print("Updated At: ", data["updated_at"])
+if response.status_code == 200:
+    print("Username: ", data["login"])
+    print("Public Repos: ", data["public_repos"])
+    print("Account Created: ", data["created_at"])
+    print("Updated At: ", data["updated_at"])
