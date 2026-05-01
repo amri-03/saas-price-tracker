@@ -1,5 +1,5 @@
-config.py
-prices.db
+price-tracker/config.py
+price-tracker/prices.db
 price_tracker_roadmap.svg
 Project_Context.txt
 .idea/
