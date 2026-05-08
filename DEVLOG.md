@@ -7,3 +7,7 @@
 - Added if status_code == 200 check independently
 - Set up GitHub repo, resolved push conflict, fixed git config
 - Learnt: requests.get(), response.json(), status codes, headers
+
+## Day 2 — Phase 2 ✅
+
+- Successfully extracted Notion Plus plan price using BeautifulSoup
